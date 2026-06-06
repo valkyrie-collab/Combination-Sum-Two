@@ -121,6 +121,7 @@ fn main() {
     // let mut arr: Vec<i32> = vec![10,1,2,7,6,1,5];
     // let target: i32 = 8;
     // let size: i32 = arr.len() as i32;
+    // You can use arr.sort(); i made custom because I want to just practice merge sort
     sort(&mut arr, 0, (size - 1) as i32);
     println!("Sorted array: {:?}", &arr);
 
